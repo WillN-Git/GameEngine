@@ -128,9 +128,9 @@ public class Window {
     }
 
     public void loop() {
-        float beginTime = Time.getTime();
-        float endTime;
-        float dt = -1.0f;
+        float beginTime = Time.getTime(),
+              endTime,
+              dt = -1.0f;
 
         while( !glfwWindowShouldClose(glfwWindow) ) {
             // Poll events
